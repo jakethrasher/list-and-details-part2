@@ -1,8 +1,23 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+import { fetchMovieDetails } from '../../services/movieDbApi';
+import Movie from './Movie';
 
-const MovieDetail = () =>(
- <h1>detail page</h1>
-)
+const MovieDetail = () =>{
+    const { id } = useParams();
+    const [movie, setMovie] = useState([])
+    const [loading, setLoading] = useState(true)
+
+    useEffect(() => {
+        (async () =>{
+            const movieData = await fetchMovieDetails(id);
+            setMovie(movieData);
+            setLoading(false)
+        })()
+    }, [])
+    
+    if(loading) return <h1>Loading..</h1>
+    else return <Movie {...movie}/>
+}
 
 export default MovieDetail;
-
