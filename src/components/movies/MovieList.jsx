@@ -2,11 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Movie from './Movie';
 import {Link} from 'react-router-dom'
+import styles from './movies.css'
 
 const MovieList = ({movies}) =>(
     <ul aria-label="movies">
         {movies.map(movie=>(
-            <Link to={`/${movie.id}`} key={movie.id}>
+            <Link to={`/${movie.id}`} key={movie.id} className={styles.linkStyle}>
                 <li>
                     <Movie {...movie}/>
                 </li>

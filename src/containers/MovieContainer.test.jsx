@@ -14,7 +14,7 @@ describe('MovieDatabase Container', () => {
         screen.getByText('Loading...')
 
         const ul = screen.findByRole('list',{ name: 'movies'});
-
+        expect(ul).toMatchSnapshot()
 
     })
 })
