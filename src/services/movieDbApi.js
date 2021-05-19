@@ -1,5 +1,5 @@
 export const fetchMovies = async () =>{
-    const res = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${process.env.MOVIE_DATABSE_KEY}&language=en-US`)
+    const res = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${process.env.MOVIE_DATABASE_KEY}&language=en-US`)
 
     const { results }= await res.json();
     return results.map(movie=>({

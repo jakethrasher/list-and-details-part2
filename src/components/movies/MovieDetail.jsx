@@ -1,11 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 const MovieDetail = () =>(
-
+ <h1>detail page</h1>
 )
 
-MovieDetail.proptypes = {
-    image: PropTypes
-}
+export default MovieDetail;
 
