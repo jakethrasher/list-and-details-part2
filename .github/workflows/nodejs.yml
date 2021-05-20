@@ -16,3 +16,4 @@ jobs:
     - run: npm test
       env:
         CI: true
+        MOVIE_DATABASE_KEY: ${{ secrets.MOVIE_DATABASE_KEY }}
