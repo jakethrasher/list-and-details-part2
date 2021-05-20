@@ -1,19 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import MovieList from '../components/movies/MovieList';
-import { fetchMovies } from '../services/movieDbApi';
+import { useMovies } from '../hooks/movieDb';
 
 const MovieContainer = () =>{
-    const [movies, setMovies] = useState([]);
-    const [loading, setLoading] = useState(true);
-
-    useEffect(() => {
-        (async ()=>{
-            const movies = await fetchMovies()
-            setMovies(movies);
-            setLoading(false)
-        })()
-    }, []);
-    
+   
+    const {movies, loading} = useMovies()
     
     if(loading)return <h1>Loading...</h1>
     else return (

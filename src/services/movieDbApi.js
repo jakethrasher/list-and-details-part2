@@ -1,4 +1,5 @@
 export const fetchMovies = async () =>{
+    
     const res = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${process.env.MOVIE_DATABASE_KEY}&language=en-US`)
 
     const { results }= await res.json();
@@ -7,7 +8,9 @@ export const fetchMovies = async () =>{
         image: `http://image.tmdb.org/t/p/w200/${movie.poster_path}`,
         title: movie.original_title,
         description: movie.overview,
-    }))
+    })) 
+  
+   
 }
 
 export const fetchMovieDetails = async (id) => {
