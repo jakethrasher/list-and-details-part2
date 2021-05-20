@@ -9,6 +9,8 @@ const MovieContainer = () =>{
     if(loading)return <h1>Loading...</h1>
     else return (
         <>
+            <button>&#9756;</button>
+            <button>&#9758;</button>
             <MovieList movies={movies}/>
         </>
     )

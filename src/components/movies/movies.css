@@ -1,7 +1,12 @@
 li{
     list-style: none;
+    width: min-content;
 }
 .linkStyle{
     text-decoration: none;
     color: black;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
 }

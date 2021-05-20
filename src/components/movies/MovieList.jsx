@@ -5,22 +5,28 @@ import {Link} from 'react-router-dom'
 import styles from './movies.css'
 
 const MovieList = ({movies}) =>(
-    <ul aria-label="movies">
-        {movies.map(movie=>(
-            <Link to={`/${movie.id}`} key={movie.id} className={styles.linkStyle}>
-                <li>
-                    <Movie {...movie}/>
-                </li>
-            </Link>
-        ))}
-    </ul>
+    <div className={styles.listContainer}>
+        <ul aria-label="movies">
+            {movies.map(movie=>(
+                <Link 
+                    to={`/${movie.id}`} 
+                    key={movie.id} 
+                    className={styles.linkStyle}>
+                    <li>
+                        <Movie 
+                        image={movie.image} 
+                        title={movie.title}/>
+                    </li>
+                </Link>
+            ))}
+        </ul>
+    </div>
 );
         
 MovieList.proptypes = {
     movies: PropTypes.arrayOf(PropTypes.shape({
     image: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
     }))
 }
 export default MovieList;
