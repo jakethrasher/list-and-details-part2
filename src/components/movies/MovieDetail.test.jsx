@@ -8,7 +8,10 @@ import { rest } from 'msw';
 import { setupServer } from 'msw/node';
 
 const server = setupServer(
-    rest.get(`https://api.themoviedb.org/3/movie/567189?api_key=${process.env.MOVIE_DATABASE_KEY}&language=en-US`, (req, res, ctx) => {
+    rest.get(`https://api.themoviedb.org/3/movie/567189`, (req, res, ctx) => {
+    const query = req.url.searchParams
+      const api_key = process.env.MOVIE_DATABASE_KEY
+      const language = query.get("language")
       return res(ctx.json({
         "adult": false,
         "backdrop_path": "/fPGeS6jgdLovQAKunNHX8l0avCy.jpg",
