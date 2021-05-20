@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieDetail displays movie detail 1`] = `
+<p
+  data-testid="title"
+>
+  Tom Clancy's Without Remorse
+</p>
+`;

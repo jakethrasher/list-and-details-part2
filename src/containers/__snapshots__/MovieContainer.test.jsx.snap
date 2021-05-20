@@ -1,0 +1,428 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieDatabase Container diplays a list of movies 1`] = `
+<ul
+  aria-label="movies"
+>
+  <a
+    class="linkStyle"
+    href="/567189"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Tom Clancy's Without Remorse"
+          src="http://image.tmdb.org/t/p/w200//rEm96ib0sPiZBADNKBHKBv5bve9.jpg"
+        />
+        <figcaption>
+          <p
+            data-testid="title"
+          >
+            Tom Clancy's Without Remorse
+          </p>
+          <p />
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    class="linkStyle"
+    href="/460465"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Mortal Kombat"
+          src="http://image.tmdb.org/t/p/w200//nkayOAUBUu4mMvyNf9iHSUiPjF1.jpg"
+        />
+        <figcaption>
+          <p
+            data-testid="title"
+          >
+            Mortal Kombat
+          </p>
+          <p />
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    class="linkStyle"
+    href="/399566"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Godzilla vs. Kong"
+          src="http://image.tmdb.org/t/p/w200//pgqgaUx1cJb5oZQQ5v0tNARCeBp.jpg"
+        />
+        <figcaption>
+          <p
+            data-testid="title"
+          >
+            Godzilla vs. Kong
+          </p>
+          <p />
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    class="linkStyle"
+    href="/615457"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Nobody"
+          src="http://image.tmdb.org/t/p/w200//oBgWY00bEFeZ9N25wWVyuQddbAo.jpg"
+        />
+        <figcaption>
+          <p
+            data-testid="title"
+          >
+            Nobody
+          </p>
+          <p />
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    class="linkStyle"
+    href="/811367"
+  >
+    <li>
+      <figure>
+        <img
+          alt="22 vs. Earth"
+          src="http://image.tmdb.org/t/p/w200//32vLDKSzcCMh55zqqaSqqUA8naz.jpg"
+        />
+        <figcaption>
+          <p
+            data-testid="title"
+          >
+            22 vs. Earth
+          </p>
+          <p />
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    class="linkStyle"
+    href="/813258"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Monster Pets: A Hotel Transylvania Short"
+          src="http://image.tmdb.org/t/p/w200//dkokENeY5Ka30BFgWAqk14mbnGs.jpg"
+        />
+        <figcaption>
+          <p
+            data-testid="title"
+          >
+            Monster Pets: A Hotel Transylvania Short
+          </p>
+          <p />
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    class="linkStyle"
+    href="/632357"
+  >
+    <li>
+      <figure>
+        <img
+          alt="The Unholy"
+          src="http://image.tmdb.org/t/p/w200//b4gYVcl8pParX8AjkN90iQrWrWO.jpg"
+        />
+        <figcaption>
+          <p
+            data-testid="title"
+          >
+            The Unholy
+          </p>
+          <p />
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    class="linkStyle"
+    href="/791373"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Zack Snyder's Justice League"
+          src="http://image.tmdb.org/t/p/w200//tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg"
+        />
+        <figcaption>
+          <p
+            data-testid="title"
+          >
+            Zack Snyder's Justice League
+          </p>
+          <p />
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    class="linkStyle"
+    href="/726684"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Miraculous World Shanghai, la légende de Ladydragon"
+          src="http://image.tmdb.org/t/p/w200//msI5a9TPnepx47JUb2vl88hb80R.jpg"
+        />
+        <figcaption>
+          <p
+            data-testid="title"
+          >
+            Miraculous World Shanghai, la légende de Ladydragon
+          </p>
+          <p />
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    class="linkStyle"
+    href="/635302"
+  >
+    <li>
+      <figure>
+        <img
+          alt="劇場版「鬼滅の刃」無限列車編"
+          src="http://image.tmdb.org/t/p/w200//h8Rb9gBr48ODIwYUttZNYeMWeUU.jpg"
+        />
+        <figcaption>
+          <p
+            data-testid="title"
+          >
+            劇場版「鬼滅の刃」無限列車編
+          </p>
+          <p />
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    class="linkStyle"
+    href="/804435"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Vanquish"
+          src="http://image.tmdb.org/t/p/w200//AoWY1gkcNzabh229Icboa1Ff0BM.jpg"
+        />
+        <figcaption>
+          <p
+            data-testid="title"
+          >
+            Vanquish
+          </p>
+          <p />
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    class="linkStyle"
+    href="/527774"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Raya and the Last Dragon"
+          src="http://image.tmdb.org/t/p/w200//lPsD10PP4rgUGiGR4CCXA6iY0QQ.jpg"
+        />
+        <figcaption>
+          <p
+            data-testid="title"
+          >
+            Raya and the Last Dragon
+          </p>
+          <p />
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    class="linkStyle"
+    href="/615678"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Thunder Force"
+          src="http://image.tmdb.org/t/p/w200//3mKMWP5OokB7QpcOMA1yl8BXFAF.jpg"
+        />
+        <figcaption>
+          <p
+            data-testid="title"
+          >
+            Thunder Force
+          </p>
+          <p />
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    class="linkStyle"
+    href="/643586"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Willy's Wonderland"
+          src="http://image.tmdb.org/t/p/w200//keEnkeAvifw8NSEC4f6WsqeLJgF.jpg"
+        />
+        <figcaption>
+          <p
+            data-testid="title"
+          >
+            Willy's Wonderland
+          </p>
+          <p />
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    class="linkStyle"
+    href="/681260"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Maya the Bee: The Golden Orb"
+          src="http://image.tmdb.org/t/p/w200//tMS2qcbhbkFpcwLnbUE9o9IK4HH.jpg"
+        />
+        <figcaption>
+          <p
+            data-testid="title"
+          >
+            Maya the Bee: The Golden Orb
+          </p>
+          <p />
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    class="linkStyle"
+    href="/634528"
+  >
+    <li>
+      <figure>
+        <img
+          alt="The Marksman"
+          src="http://image.tmdb.org/t/p/w200//6vcDalR50RWa309vBH1NLmG2rjQ.jpg"
+        />
+        <figcaption>
+          <p
+            data-testid="title"
+          >
+            The Marksman
+          </p>
+          <p />
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    class="linkStyle"
+    href="/412656"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Chaos Walking"
+          src="http://image.tmdb.org/t/p/w200//9kg73Mg8WJKlB9Y2SAJzeDKAnuB.jpg"
+        />
+        <figcaption>
+          <p
+            data-testid="title"
+          >
+            Chaos Walking
+          </p>
+          <p />
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    class="linkStyle"
+    href="/458576"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Monster Hunter"
+          src="http://image.tmdb.org/t/p/w200//1UCOF11QCw8kcqvce8LKOO6pimh.jpg"
+        />
+        <figcaption>
+          <p
+            data-testid="title"
+          >
+            Monster Hunter
+          </p>
+          <p />
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    class="linkStyle"
+    href="/464052"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Wonder Woman 1984"
+          src="http://image.tmdb.org/t/p/w200//8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg"
+        />
+        <figcaption>
+          <p
+            data-testid="title"
+          >
+            Wonder Woman 1984
+          </p>
+          <p />
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    class="linkStyle"
+    href="/578701"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Those Who Wish Me Dead"
+          src="http://image.tmdb.org/t/p/w200//xCEg6KowNISWvMh8GvPSxtdf9TO.jpg"
+        />
+        <figcaption>
+          <p
+            data-testid="title"
+          >
+            Those Who Wish Me Dead
+          </p>
+          <p />
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+</ul>
+`;
