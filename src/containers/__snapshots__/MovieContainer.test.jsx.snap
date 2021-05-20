@@ -15,7 +15,9 @@ exports[`MovieDatabase Container diplays a list of movies 1`] = `
           src="http://image.tmdb.org/t/p/w200//rEm96ib0sPiZBADNKBHKBv5bve9.jpg"
         />
         <figcaption>
-          <p>
+          <p
+            data-testid="title"
+          >
             Tom Clancy's Without Remorse
           </p>
           <p />
@@ -34,7 +36,9 @@ exports[`MovieDatabase Container diplays a list of movies 1`] = `
           src="http://image.tmdb.org/t/p/w200//nkayOAUBUu4mMvyNf9iHSUiPjF1.jpg"
         />
         <figcaption>
-          <p>
+          <p
+            data-testid="title"
+          >
             Mortal Kombat
           </p>
           <p />
@@ -53,7 +57,9 @@ exports[`MovieDatabase Container diplays a list of movies 1`] = `
           src="http://image.tmdb.org/t/p/w200//pgqgaUx1cJb5oZQQ5v0tNARCeBp.jpg"
         />
         <figcaption>
-          <p>
+          <p
+            data-testid="title"
+          >
             Godzilla vs. Kong
           </p>
           <p />
@@ -72,7 +78,9 @@ exports[`MovieDatabase Container diplays a list of movies 1`] = `
           src="http://image.tmdb.org/t/p/w200//oBgWY00bEFeZ9N25wWVyuQddbAo.jpg"
         />
         <figcaption>
-          <p>
+          <p
+            data-testid="title"
+          >
             Nobody
           </p>
           <p />
@@ -91,7 +99,9 @@ exports[`MovieDatabase Container diplays a list of movies 1`] = `
           src="http://image.tmdb.org/t/p/w200//32vLDKSzcCMh55zqqaSqqUA8naz.jpg"
         />
         <figcaption>
-          <p>
+          <p
+            data-testid="title"
+          >
             22 vs. Earth
           </p>
           <p />
@@ -110,7 +120,9 @@ exports[`MovieDatabase Container diplays a list of movies 1`] = `
           src="http://image.tmdb.org/t/p/w200//dkokENeY5Ka30BFgWAqk14mbnGs.jpg"
         />
         <figcaption>
-          <p>
+          <p
+            data-testid="title"
+          >
             Monster Pets: A Hotel Transylvania Short
           </p>
           <p />
@@ -129,7 +141,9 @@ exports[`MovieDatabase Container diplays a list of movies 1`] = `
           src="http://image.tmdb.org/t/p/w200//b4gYVcl8pParX8AjkN90iQrWrWO.jpg"
         />
         <figcaption>
-          <p>
+          <p
+            data-testid="title"
+          >
             The Unholy
           </p>
           <p />
@@ -148,7 +162,9 @@ exports[`MovieDatabase Container diplays a list of movies 1`] = `
           src="http://image.tmdb.org/t/p/w200//tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg"
         />
         <figcaption>
-          <p>
+          <p
+            data-testid="title"
+          >
             Zack Snyder's Justice League
           </p>
           <p />
@@ -167,7 +183,9 @@ exports[`MovieDatabase Container diplays a list of movies 1`] = `
           src="http://image.tmdb.org/t/p/w200//msI5a9TPnepx47JUb2vl88hb80R.jpg"
         />
         <figcaption>
-          <p>
+          <p
+            data-testid="title"
+          >
             Miraculous World Shanghai, la légende de Ladydragon
           </p>
           <p />
@@ -186,7 +204,9 @@ exports[`MovieDatabase Container diplays a list of movies 1`] = `
           src="http://image.tmdb.org/t/p/w200//h8Rb9gBr48ODIwYUttZNYeMWeUU.jpg"
         />
         <figcaption>
-          <p>
+          <p
+            data-testid="title"
+          >
             劇場版「鬼滅の刃」無限列車編
           </p>
           <p />
@@ -205,7 +225,9 @@ exports[`MovieDatabase Container diplays a list of movies 1`] = `
           src="http://image.tmdb.org/t/p/w200//AoWY1gkcNzabh229Icboa1Ff0BM.jpg"
         />
         <figcaption>
-          <p>
+          <p
+            data-testid="title"
+          >
             Vanquish
           </p>
           <p />
@@ -224,7 +246,9 @@ exports[`MovieDatabase Container diplays a list of movies 1`] = `
           src="http://image.tmdb.org/t/p/w200//lPsD10PP4rgUGiGR4CCXA6iY0QQ.jpg"
         />
         <figcaption>
-          <p>
+          <p
+            data-testid="title"
+          >
             Raya and the Last Dragon
           </p>
           <p />
@@ -243,7 +267,9 @@ exports[`MovieDatabase Container diplays a list of movies 1`] = `
           src="http://image.tmdb.org/t/p/w200//3mKMWP5OokB7QpcOMA1yl8BXFAF.jpg"
         />
         <figcaption>
-          <p>
+          <p
+            data-testid="title"
+          >
             Thunder Force
           </p>
           <p />
@@ -262,7 +288,9 @@ exports[`MovieDatabase Container diplays a list of movies 1`] = `
           src="http://image.tmdb.org/t/p/w200//keEnkeAvifw8NSEC4f6WsqeLJgF.jpg"
         />
         <figcaption>
-          <p>
+          <p
+            data-testid="title"
+          >
             Willy's Wonderland
           </p>
           <p />
@@ -281,7 +309,9 @@ exports[`MovieDatabase Container diplays a list of movies 1`] = `
           src="http://image.tmdb.org/t/p/w200//tMS2qcbhbkFpcwLnbUE9o9IK4HH.jpg"
         />
         <figcaption>
-          <p>
+          <p
+            data-testid="title"
+          >
             Maya the Bee: The Golden Orb
           </p>
           <p />
@@ -300,7 +330,9 @@ exports[`MovieDatabase Container diplays a list of movies 1`] = `
           src="http://image.tmdb.org/t/p/w200//6vcDalR50RWa309vBH1NLmG2rjQ.jpg"
         />
         <figcaption>
-          <p>
+          <p
+            data-testid="title"
+          >
             The Marksman
           </p>
           <p />
@@ -319,7 +351,9 @@ exports[`MovieDatabase Container diplays a list of movies 1`] = `
           src="http://image.tmdb.org/t/p/w200//9kg73Mg8WJKlB9Y2SAJzeDKAnuB.jpg"
         />
         <figcaption>
-          <p>
+          <p
+            data-testid="title"
+          >
             Chaos Walking
           </p>
           <p />
@@ -338,7 +372,9 @@ exports[`MovieDatabase Container diplays a list of movies 1`] = `
           src="http://image.tmdb.org/t/p/w200//1UCOF11QCw8kcqvce8LKOO6pimh.jpg"
         />
         <figcaption>
-          <p>
+          <p
+            data-testid="title"
+          >
             Monster Hunter
           </p>
           <p />
@@ -357,7 +393,9 @@ exports[`MovieDatabase Container diplays a list of movies 1`] = `
           src="http://image.tmdb.org/t/p/w200//8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg"
         />
         <figcaption>
-          <p>
+          <p
+            data-testid="title"
+          >
             Wonder Woman 1984
           </p>
           <p />
@@ -376,7 +414,9 @@ exports[`MovieDatabase Container diplays a list of movies 1`] = `
           src="http://image.tmdb.org/t/p/w200//xCEg6KowNISWvMh8GvPSxtdf9TO.jpg"
         />
         <figcaption>
-          <p>
+          <p
+            data-testid="title"
+          >
             Those Who Wish Me Dead
           </p>
           <p />

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap');
+
 li{
     list-style: none;
     width: min-content;
@@ -9,4 +11,7 @@ li{
 ul{
     display: flex;
     flex-wrap: wrap;
+}
+figcaption{
+    font-family: 'Lato', sans-serif;
 }

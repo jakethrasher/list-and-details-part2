@@ -6,7 +6,7 @@ const Movie = ({image, title, description}) => {
     return <figure>
         <img src={image} alt={title}/>
         <figcaption>
-            <p>{title}</p>
+            <p data-testid='title'>{title}</p>
             <p>{description || null }</p>
         </figcaption>
     </figure>

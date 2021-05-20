@@ -11,12 +11,17 @@ export default function App() {
   return (
   <Router>
     <Switch>
-      <Route exact path='/:id'>
-        <MovieDetail/>
-      </Route>
-      <Route exact path='/'>
-        <MovieContainer/>
-      </Route>
+      <Route 
+        exact 
+        path='/:id'
+        render={(routerProps)=> <MovieDetail {...routerProps}/>}
+        />
+  
+      <Route 
+        exact 
+        path='/'
+        render={(routerProps)=> <MovieContainer {...routerProps}/>}
+        />
     </Switch>
   </Router>
   )

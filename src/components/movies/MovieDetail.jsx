@@ -1,23 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import { useParams, useHistory } from 'react-router-dom';
-import { fetchMovieDetails } from '../../services/movieDbApi';
+import React from 'react';
+import { useMovie } from '../../hooks/movieDb';
+
 import Movie from './Movie';
 
-const MovieDetail = () =>{
-    const history = useHistory();
-    const { id } = useParams();
-    const [movie, setMovie] = useState([])
-    const [loading, setLoading] = useState(true)
-    
-    useEffect(() => {
-        (async () =>{
-            const movieData = await fetchMovieDetails(id);
-            setMovie(movieData);
-            setLoading(false)
-        })()
-    }, [])
-    
-    if(loading) return <h1>Loading..</h1>
+const MovieDetail = ({match}) =>{
+    const {movie, loading} = useMovie(match)
+
+    if(loading) return <h1>Loading...</h1>
     else return <Movie {...movie}/>
 }
 
